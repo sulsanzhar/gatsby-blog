@@ -1,5 +1,68 @@
 .wrapper {
-  max-width: 600px;
-  margin: auto;
-  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #111;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.postCard {
+  background: #fefefe;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+  text-decoration: none !important;
+}
+
+.postCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+}
+
+.postCard a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.postCard h2 {
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem;
+  color: #111;
+  transition: color 0.3s ease;
+}
+
+.postCard p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.postCard:hover h2 {
+  color: #0070f3;
+}
+
+.cardLink,
+.cardLink:visited,
+.cardLink:hover,
+.cardLink:focus,
+.cardLink:active {
+  text-decoration: none;
+  color: inherit;
 }

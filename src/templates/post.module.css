@@ -1,0 +1,65 @@
+.post {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.5s ease-in-out;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.date {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.content {
+  line-height: 1.7;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+.content h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+
+.content p {
+  margin-bottom: 1.2rem;
+}
+
+.content ul {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.content a {
+  color: #007acc;
+  text-decoration: none;
+  border-bottom: 1px dashed #007acc;
+  transition: all 0.3s ease;
+}
+
+.content a:hover {
+  color: #005b99;
+  border-bottom: 1px solid #005b99;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
